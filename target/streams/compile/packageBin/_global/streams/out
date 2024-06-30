@@ -1,0 +1,25 @@
+[debug] Packaging C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\base64encoding_3-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	com
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\com
+[debug] 	com\eu
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\com\eu
+[debug] 	com\eu\base64
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\com\eu\base64
+[debug] 	com\eu\base64\Base64Decoder$.class
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\com\eu\base64\Base64Decoder$.class
+[debug] 	com\eu\base64\Base64Decoder.class
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\com\eu\base64\Base64Decoder.class
+[debug] 	com\eu\base64\Base64Decoder.tasty
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\com\eu\base64\Base64Decoder.tasty
+[debug] 	main$package$.class
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\main$package$.class
+[debug] 	main$package.class
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\main$package.class
+[debug] 	main$package.tasty
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\main$package.tasty
+[debug] 	main.class
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\main.class
+[debug] 	main.tasty
+[debug] 	  C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes\main.tasty
+[debug] Done packaging.
