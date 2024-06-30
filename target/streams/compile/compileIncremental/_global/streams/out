@@ -2,29 +2,29 @@
 [debug] IncrementalCompile.incrementalCompile
 [debug] previous = Stamps for: 8 products, 5 sources, 3 libraries
 [debug] current source = Set(${BASE}/src/main/scala/com/eu/auth/CustomHeaderAuthenticator.scala, ${BASE}/src/main/scala/com/eu/auth/HeaderAuthenticator.scala, ${BASE}/src/main/scala/com/eu/auth/ServerHttpRequest.scala, ${BASE}/src/main/scala/com/eu/Main.scala, ${BASE}/src/main/scala/com/eu/base64/Base64Decoder.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(${BASE}/target/scala-3.4.2/classes/com/eu/run.class, ${BASE}/target/scala-3.4.2/classes/com/eu/base64/Base64Decoder.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/ServerHttpRequest.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/CustomHeaderAuthenticator.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/HeaderAuthenticator.class, ${BASE}/target/scala-3.4.2/classes/com/eu/Main$package.class),Set(),API Changes: Set())
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/com/eu/auth/CustomHeaderAuthenticator.scala), unmodified = ...),Set(${BASE}/target/scala-3.4.2/classes/com/eu/run.class, ${BASE}/target/scala-3.4.2/classes/com/eu/base64/Base64Decoder.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/ServerHttpRequest.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/CustomHeaderAuthenticator.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/HeaderAuthenticator.class, ${BASE}/target/scala-3.4.2/classes/com/eu/Main$package.class),Set(),API Changes: Set())
 [debug] 
 [debug] Initial source changes:
 [debug] 	removed: Set()
 [debug] 	added: Set()
-[debug] 	modified: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/com/eu/auth/CustomHeaderAuthenticator.scala)
 [debug] Invalidated products: Set(${BASE}/target/scala-3.4.2/classes/com/eu/run.class, ${BASE}/target/scala-3.4.2/classes/com/eu/base64/Base64Decoder.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/ServerHttpRequest.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/CustomHeaderAuthenticator.class, ${BASE}/target/scala-3.4.2/classes/com/eu/auth/HeaderAuthenticator.class, ${BASE}/target/scala-3.4.2/classes/com/eu/Main$package.class)
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set()
+[debug] Initial directly invalidated classes: Set(com.eu.auth.CustomHeaderAuthenticator)
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set(${BASE}/src/main/scala/com/eu/auth/CustomHeaderAuthenticator.scala, ${BASE}/src/main/scala/com/eu/auth/HeaderAuthenticator.scala, ${BASE}/src/main/scala/com/eu/auth/ServerHttpRequest.scala, ${BASE}/src/main/scala/com/eu/Main.scala, ${BASE}/src/main/scala/com/eu/base64/Base64Decoder.scala)
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
 [debug] all 5 sources are invalidated
-[debug] Initial set of included nodes: 
+[debug] Initial set of included nodes: com.eu.auth.CustomHeaderAuthenticator
 [debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
 [debug] compilation cycle 1
 [info] compiling 5 Scala sources to C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes ...
 [debug] Returning already retrieved and compiled bridge: C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.4.2\scala3-sbt-bridge-3.4.2.jar.
-[debug] [zinc] Running cached compiler 992528d for Scala Compiler version 3.4.2
+[debug] [zinc] Running cached compiler 1de06edb for Scala Compiler version 3.4.2
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-classpath
 [debug] 	C:\Users\j\workspace\scala\Base64Encoding\target\scala-3.4.2\classes;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.4.2\scala3-library_3-3.4.2.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_3\2.10.5\play-json_3-2.10.5.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_3\2.10.5\play-functional_3-2.10.5.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.14.3\jackson-core-2.14.3.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.14.3\jackson-annotations-2.14.3.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.3\jackson-datatype-jdk8-2.14.3.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.3\jackson-datatype-jsr310-2.14.3.jar;C:\Users\j\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.14.3\jackson-databind-2.14.3.jar
-[debug] Scala compilation took 3.4974419 s
+[debug] Scala compilation took 0.9790786 s
 [info] done compiling
