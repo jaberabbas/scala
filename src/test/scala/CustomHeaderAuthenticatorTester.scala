@@ -7,6 +7,6 @@ class CustomHeaderAuthenticatorTester extends AnyFunSuite{
 
   test("extractUsername"){
     val request : ServerHttpRequest = ServerHttpRequest()
-    assert(CustomHeaderAuthenticator().extractUsername(request).get === "super-admin")
+    assert(CustomHeaderAuthenticator().extractUsername(request).get === "gyarako")
   }
 }
