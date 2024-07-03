@@ -1,6 +1,10 @@
 
 import com.eu.base64.Base64Decoder
+import jdk.jfr.internal.handlers.EventHandler.timestamp
 import org.scalatest.funsuite.AnyFunSuite
+
+import java.time.{Instant, LocalDateTime, ZoneId}
+import java.time.format.DateTimeFormatter
 
 class Base64DecoderTester extends AnyFunSuite:
 
@@ -35,5 +39,22 @@ class Base64DecoderTester extends AnyFunSuite:
     assert(Base64Decoder.getValue(encodedHeader, "jti") === "b1327978-5e80-44b5-8f4d-ca95426aef74")
     assert(Base64Decoder.getValue(encodedHeader, "email") === "Kondaiah.GYARA@ext.ec.europa.eu")
     assert(Base64Decoder.getValue(encodedHeader, "username") === "gyarako")
+
+  }
+
+  test("compare datetime"){
+    val encodedHeader = "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJneWFyYWtvIiwiaHR0cHM6XC9cL2VjYXMuZWMuZXVyb3BhLmV1XC9jbGFpbXNcL2VtcGxveWVlX251bWJlciI6IjkwMTQ5NzQ1Iiwic3Vic2NyaXB0aW9ucyI6WyJcL2NhcGkiXSwiaHR0cHM6XC9cL2VjYXMuZWMuZXVyb3BhLmV1XC9jbGFpbXNcL2RlcGFydG1lbnRfbnVtYmVyIjoiRElHSVQuQS40LjAwNSIsImlzcyI6Imh0dHBzOlwvXC9hcGkuYWNjZXB0YW5jZS50ZWNoLmVjLmV1cm9wYS5ldVwvZmVkZXJhdGlvblwvb2F1dGhcL3Rva2VuIiwiZ2l2ZW5fbmFtZSI6IktvbmRhaWFoIiwiY2xpZW50X2lkIjoiMk00QzNKRlhXMlI2U2k0N2tBWTQyZDFqZnpUVldNSmJTc2lnZmVsZnRFSHpaWmlGRjR6cjBPZ3FLY0lodG1Xa09yNWhubXprR3lUV3F6R05zT1Q5S3lyLXJhOGduQ0YxbFdhRzluZ1MzcXRjNHkiLCJodHRwczpcL1wvZWNhcy5lYy5ldXJvcGEuZXVcL2NsYWltc1wvb3JnX2lkIjoiMjUwNjYzIiwiYXVkIjoicEFmM1lkVnJpTHlUUjVyODRkdk1HTDBDYzhVYSIsIm5iZiI6MTcxOTkzMTc4NiwicGhvbmVOdW1iZXIiOiI2NjY0NiIsImF6cCI6InBBZjNZZFZyaUx5VFI1cjg0ZHZNR0wwQ2M4VWEiLCJuYW1lIjoiS29uZGFpYWggR1lBUkEiLCJleHAiOjE3MTk5MzUzODYsImlhdCI6MTcxOTkzMTc4NiwiZmFtaWx5X25hbWUiOiJHWUFSQSIsImp0aSI6ImIxMzI3OTc4LTVlODAtNDRiNS04ZjRkLWNhOTU0MjZhZWY3NCIsImVtYWlsIjoiS29uZGFpYWguR1lBUkFAZXh0LmVjLmV1cm9wYS5ldSIsInVzZXJuYW1lIjoiZ3lhcmFrbyJ9.qqEgaNpRIOTi2wXAC-6snoSIrJz2hZoXj4ws2JqGY1ULX4J53haRs9qfCS0oTGLsLHWamq8IZvp0lAviGyFgzfxYDzKv7jJKFfeLDZvo2IayZNuj7ml5MiF8DvWDo96leMIRfPp2y-dzlliUzZEm-n3974b4mneq4mcWy2Jwmyk85rVBVaaBUShLgxKt9dYEQ9Xzh4dvNaxMMatt0qHlCryOanI3B5q73EGs2pTrhlhOLd0DSeVC8V45npHpaN28b7uECEjbLJ0RoOhXc_BI8mGRdPnoX5LEn34JJ0x9GcRG1DP-7pkDXVVYNL64tdNwRt6RR1j5tWKgoVTGhMpBSg"
+    val exp = Base64Decoder.getValue(encodedHeader, "exp") //7/2/2024, 5:49:46 PM
+    val currentDateTime: LocalDateTime = LocalDateTime.now()//2024-07-03T10:30:56.156582
+    println("currentDateTime: " + currentDateTime)
+    val expirationDateTime: LocalDateTime = LocalDateTime.ofInstant(Instant.ofEpochSecond(exp.toLong), ZoneId.systemDefault())
+    println(s"Other Date and Time: $expirationDateTime")
+    if (currentDateTime.isAfter(expirationDateTime)) {
+      println("Token is already expired on: " + expirationDateTime)
+    } else if (currentDateTime.isBefore(expirationDateTime)) {
+      println("token is still valid : " + expirationDateTime)
+    } else {
+      println("token will expire today: " + expirationDateTime)
+    }
 
   }
