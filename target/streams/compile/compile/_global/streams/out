@@ -1,0 +1,7 @@
+[error] -- [E039] Reference Error: C:\Users\j\workspace\scala\Learn\src\main\scala\main.scala:6:10 
+[error] 6 |  println(age())
+[error]   |          ^^^
+[error]   |         age is a forward reference extending over the definition of mydog
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] one error found

@@ -1,0 +1,31 @@
+[debug] Packaging C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\learn_3-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	Animal.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\Animal.class
+[debug] 	Animal.tasty
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\Animal.tasty
+[debug] 	Calculator$.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\Calculator$.class
+[debug] 	Calculator.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\Calculator.class
+[debug] 	Calculator.tasty
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\Calculator.tasty
+[debug] 	Dog.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\Dog.class
+[debug] 	Dog.tasty
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\Dog.tasty
+[debug] 	HasTail.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\HasTail.class
+[debug] 	HasTail.tasty
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\HasTail.tasty
+[debug] 	main$package$.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\main$package$.class
+[debug] 	main$package.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\main$package.class
+[debug] 	main$package.tasty
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\main$package.tasty
+[debug] 	main.class
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\main.class
+[debug] 	main.tasty
+[debug] 	  C:\Users\j\workspace\scala\Learn\target\scala-3.4.2\classes\main.tasty
+[debug] Done packaging.
