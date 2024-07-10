@@ -1,0 +1,14 @@
+[debug] > Exec(__runWatch console0, Some(407224e4-9395-4b97-bcc1-4bb1b3285d31), Some(CommandSource(console0)))
+[debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(run, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes ...
+[warn] C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\patternmatch\SMS.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue
+[warn] -- [E190] Potential Issue Warning: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:68:22 
+[warn] 68 |  val p1: Unit = Point(10, 10)
+[warn]    |                 ^^^^^^^^^^^^^
+[warn]    |Discarded non-Unit value of type com.learn.Point. You may want to use `()`.
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`

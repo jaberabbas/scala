@@ -1,0 +1,41 @@
+[debug] > Exec(__runWatch console0, Some(5d610b29-b3c5-4e65-abcc-d49024a4a4df), Some(CommandSource(console0)))
+[debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(run, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes ...
+[error] -- [E006] Not Found Error: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:10:2 
+[error] 10 |  saveContactInformation("123-456-7890")
+[error]    |  ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  Not found: saveContactInformation
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:11:2 
+[error] 11 |  saveContactInformation("JohnSmith@sample.domain.com")
+[error]    |  ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  Not found: saveContactInformation
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:12:2 
+[error] 12 |  saveContactInformation("2 Franklin St, Mars, Milky Way")
+[error]    |  ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  Not found: saveContactInformation
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[warn] C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\patternmatch\SMS.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue
+[warn] -- [E190] Potential Issue Warning: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:67:22 
+[warn] 67 |  val p1: Unit = Point(10, 10)
+[warn]    |                 ^^^^^^^^^^^^^
+[warn]    |Discarded non-Unit value of type com.learn.Point. You may want to use `()`.
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] two warnings found
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed 10 Jul 2024, 15:43:45
+[debug] > Exec(resumeFromFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__postWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(__waitWatch console0, None, None)
