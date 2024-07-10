@@ -1,0 +1,15 @@
+[debug] > Exec(__runWatch console0, Some(02dc05e3-0404-4350-a680-70de312ae5f8), Some(CommandSource(console0)))
+[debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(run, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes ...
+[warn] -- [E190] Potential Issue Warning: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:25:22 
+[warn] 25 |  val p1: Unit = Point(10, 10)
+[warn]    |                 ^^^^^^^^^^^^^
+[warn]    |Discarded non-Unit value of type com.learn.Point. You may want to use `()`.
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] one warning found
+[info] done compiling
