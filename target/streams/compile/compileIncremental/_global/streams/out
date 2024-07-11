@@ -1,37 +1,6 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 31 products, 12 sources, 2 libraries
-[debug] current source = Set(${BASE}/src/main/scala/com/learn/Greeting.scala, ${BASE}/src/main/scala/com/learn/patternmatch/PatternMatch.scala, ${BASE}/src/main/scala/com/learn/Point.scala, ${BASE}/src/main/scala/com/learn/oop/OOP.scala, ${BASE}/src/main/scala/main.scala, ${BASE}/src/main/scala/com/learn/Calculator.scala, ${BASE}/src/main/scala/com/learn/regex/RegEx.scala, ${BASE}/src/main/scala/com/learn/Iterator.scala, ${BASE}/src/main/scala/com/learn/oop/Pet.scala, ${BASE}/src/main/scala/com/learn/patternmatch/Notification.scala, ${BASE}/src/main/scala/com/learn/patternmatch/Device.scala, ${BASE}/src/main/scala/com/learn/Logger.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/main.scala), unmodified = ...),Set(${BASE}/target/scala-3.4.2/classes/com/learn/regex/RegEx.class, ${BASE}/target/scala-3.4.2/classes/main$package.class, ${BASE}/target/scala-3.4.2/classes/main.class),Set(),API Changes: Set())
-[debug] 
-[debug] Initial source changes:
-[debug] 	removed: Set()
-[debug] 	added: Set()
-[debug] 	modified: Set(${BASE}/src/main/scala/main.scala)
-[debug] Invalidated products: Set(${BASE}/target/scala-3.4.2/classes/com/learn/regex/RegEx.class, ${BASE}/target/scala-3.4.2/classes/main$package.class, ${BASE}/target/scala-3.4.2/classes/main.class)
-[debug] External API changes: API Changes: Set()
-[debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(main, main$package)
-[debug] Sources indirectly invalidated by:
-[debug] 	product: Set(${BASE}/src/main/scala/com/learn/regex/RegEx.scala, ${BASE}/src/main/scala/main.scala)
-[debug] 	binary dep: Set()
-[debug] 	external source: Set()
-[debug] All initially invalidated classes: Set(main, main$package)
-[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/main.scala, ${BASE}/src/main/scala/com/learn/regex/RegEx.scala)
-[debug] Initial set of included nodes: main, main$package
-[debug] compilation cycle 1
-[info] compiling 2 Scala sources to C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes ...
-[debug] Returning already retrieved and compiled bridge: C:\Users\jaber.abbas\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.4.2\scala3-sbt-bridge-3.4.2.jar.
-[debug] [zinc] Running cached compiler 79fd8f04 for Scala Compiler version 3.4.2
-[debug] [zinc] The Scala compiler is invoked with:
-[debug] 	-classpath
-[debug] 	C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes;C:\Users\jaber.abbas\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.4.2\scala3-library_3-3.4.2.jar;C:\Users\jaber.abbas\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar
-[debug] Scala compilation took 0.2303577 s
-[info] done compiling
-[debug] New invalidations:
-[debug] Initial set of included nodes: 
-[debug] Previously invalidated, but (transitively) depend on new invalidations:
-[debug] Final step, transitive dependencies:
-[debug] 	Set()
-[debug] Initial set of included nodes: main, main$package, com.learn.regex.RegEx
-[debug] No classes were invalidated.
+[debug] previous = Stamps for: 33 products, 13 sources, 2 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/learn/Greeting.scala, ${BASE}/src/main/scala/com/learn/patternmatch/PatternMatch.scala, ${BASE}/src/main/scala/com/learn/Point.scala, ${BASE}/src/main/scala/com/learn/oop/OOP.scala, ${BASE}/src/main/scala/main.scala, ${BASE}/src/main/scala/com/learn/Calculator.scala, ${BASE}/src/main/scala/com/learn/regex/RegEx.scala, ${BASE}/src/main/scala/com/learn/Iterator.scala, ${BASE}/src/main/scala/com/learn/oop/Pet.scala, ${BASE}/src/main/scala/com/learn/patternmatch/Notification.scala, ${BASE}/src/main/scala/com/learn/patternmatch/Device.scala, ${BASE}/src/main/scala/com/learn/extractorobject/CustomerID.scala, ${BASE}/src/main/scala/com/learn/Logger.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] No changes

@@ -1,3 +1,4 @@
+import com.learn.extractorobject.CustomerID
 import com.learn.patternmatch.{Computer, Email, PatternMatch, Phone, SMS, VoiceRecording}
 import com.learn.regex.RegEx
 import com.learn.{Cat, Greeting, IntIterator, Logger, Mouse, Pet, Point}
@@ -7,6 +8,11 @@ import scala.collection.mutable.ArrayBuffer
 @main
 def main(): Unit =
 
+  val customer1ID = CustomerID("Sukyoung")
+  println(customer1ID)
+  customer1ID match
+    case CustomerID(name) => println(name) // prints Sukyoung
+    case _ => println("Could not extract a CustomerID")
   RegEx().saveContactInformation("123-456-7890")
   RegEx().saveContactInformation("JohnSmith@sample.domain.com")
   RegEx().saveContactInformation("2 Franklin St, Mars, Milky Way")

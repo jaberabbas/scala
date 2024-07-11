@@ -18,6 +18,14 @@
 [debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\Cat.class
 [debug] 	com\learn\Cat.tasty
 [debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\Cat.tasty
+[debug] 	com\learn\extractorobject
+[debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\extractorobject
+[debug] 	com\learn\extractorobject\CustomerID$.class
+[debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\extractorobject\CustomerID$.class
+[debug] 	com\learn\extractorobject\CustomerID.class
+[debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\extractorobject\CustomerID.class
+[debug] 	com\learn\extractorobject\CustomerID.tasty
+[debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\extractorobject\CustomerID.tasty
 [debug] 	com\learn\Greeting.class
 [debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\Greeting.class
 [debug] 	com\learn\Greeting.tasty
@@ -110,8 +118,6 @@
 [debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\main$package$.class
 [debug] 	main$package.class
 [debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\main$package.class
-[debug] 	main$package.tasty
-[debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\main$package.tasty
 [debug] 	main.class
 [debug] 	  C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\main.class
 [debug] 	main.tasty

@@ -1,20 +1,27 @@
-[debug] > Exec(__runWatch console0, Some(407224e4-9395-4b97-bcc1-4bb1b3285d31), Some(CommandSource(console0)))
+[debug] > Exec(__runWatch console0, Some(5a564555-3194-42c3-90a4-3d9b49db9835), Some(CommandSource(console0)))
 [debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
 [debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
 [debug] > Exec(run, None, Some(CommandSource(console0)))
 [debug] Evaluating tasks: Compile / run
 [debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[info] compiling 2 Scala sources to C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes ...
+[info] compiling 1 Scala source to C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes ...
+[error] -- [E019] Syntax Error: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:104:23 
+[error] 104 |  def customerIdMatch()
+[error]     |                       ^
+[error]     |                       Missing return type
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
 [warn] C:\Users\jaber.abbas\workspace\scala\learn\target\scala-3.4.2\classes\com\learn\patternmatch\SMS.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue
-[warn] -- [E190] Potential Issue Warning: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:68:22 
-[warn] 68 |  val p1: Unit = Point(10, 10)
+[warn] -- [E190] Potential Issue Warning: C:\Users\jaber.abbas\workspace\scala\learn\src\main\scala\main.scala:74:22 
+[warn] 74 |  val p1: Unit = Point(10, 10)
 [warn]    |                 ^^^^^^^^^^^^^
 [warn]    |Discarded non-Unit value of type com.learn.Point. You may want to use `()`.
 [warn]    |
 [warn]    | longer explanation available when compiling with `-explain`
 [warn] two warnings found
-[info] done compiling
-[success] Total time: 0 s, completed 10 Jul 2024, 15:44:00
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed 11 Jul 2024, 10:33:43
 [debug] > Exec(resumeFromFailure, None, Some(CommandSource(console0)))
 [debug] > Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))
 [debug] > Exec(__postWatch console0, None, Some(CommandSource(console0)))
