@@ -1,4 +1,4 @@
-import com.learn.Calculator
+import com.learn.classes.Calculator
 import org.scalatest.funsuite.AnyFunSuite
 
 class CalculatorTester extends AnyFunSuite:

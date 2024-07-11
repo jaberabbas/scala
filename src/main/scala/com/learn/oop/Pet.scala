@@ -1,4 +1,4 @@
-package com.learn
+package com.learn.oop
 
 trait Pet {
   val name: String
